@@ -10,5 +10,5 @@ library(RColorBrewer)
 data(diamonds)
 
 # create scatterplot of price vs. carat color coded by diamonds cuts
-qplot(data = diamonds, x = carat, y = price, color =cut) + 
+qplot(data = diamonds, x = carat, y = price, color = cut) + 
   scale_color_brewer(palette = 'Accent')
